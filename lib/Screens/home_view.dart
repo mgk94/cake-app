@@ -1,5 +1,6 @@
-import 'package:cake_shop_app/Utilities/cake_tabs.dart';
+// import 'package:cake_shop_app/Utilities/cake_tabs.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Utilities/cake_tabs.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 
 import '../TabBarView/birthday_tab.dart';
@@ -101,9 +102,9 @@ class HomeView extends StatelessWidget {
                             indicatorColor: Colors.purple,
 
                             /// Called whenever the page in the center of the viewport changes.
-                            onPageChanged: (value) {
-                              print('Page changed: $value');
-                            },
+                            // onPageChanged: (value) {
+                            //   print('Page changed: $value');
+                            // },
 
                             /// Auto scroll interval.
                             /// Do not auto scroll with null or 0.
@@ -224,3 +225,6 @@ class _CustomClipper extends CustomClipper<Path> {
     return true;
   }
 }
+
+
+// flutter_application_1

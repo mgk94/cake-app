@@ -1,5 +1,6 @@
-import 'package:cake_shop_app/Models/bidthday_model.dart';
+// import 'package:cake_shop_app/Models/bidthday_model.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Models/bidthday_model.dart';
 
 class BirthdayCakeScreen extends StatelessWidget {
   const BirthdayCakeScreen({super.key, required this.birthday});
@@ -212,12 +213,12 @@ class Ingredients extends StatelessWidget {
       required this.borderColor,
       required this.percentColor})
       : super(key: key);
-  final color;
+  final dynamic color;
   final String text;
   final String gram;
   final String percent;
-  final borderColor;
-  final percentColor;
+  final dynamic borderColor;
+  final dynamic percentColor;
 
   @override
   Widget build(BuildContext context) {
